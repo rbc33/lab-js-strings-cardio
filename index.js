@@ -70,11 +70,10 @@ funnyHeadline2.includes('oxygen')
 
 const string4 = 'zEAWrTC9EgtxmK9w1'
 
-console.log(string4.length)
-console.log(string4[string4.length - 1])
-
 // a) Print the string length
 // Your code here ...
+console.log(string4.length)
 
 // b) Print the last character in the string
 // Your code here ...
+console.log(string4[string4.length - 1])
