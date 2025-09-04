@@ -14,6 +14,7 @@ console.log(string1.indexOf('j'))
 
 const string2 = 'ABCDEFGHJKLO'
 
+// Your code here...
 const newString =
 	string2[string2.indexOf('C')] +
 	string2[string2.indexOf('O')] +
@@ -56,12 +57,12 @@ const funnyHeadline2 = 'Students Cook & Serve Grandparents'
 funnyHeadline1.includes('oxygen')
 	? console.log("The string include the word 'oxygen'")
 	: console.log("The string does not include the word 'oxygen'")
-funnyHeadline2.includes('oxygen')
-	? console.log("The string include the word 'oxygen'")
-	: console.log("The string does not include the word 'oxygen'")
 
 // Check the second headline
 // Your code here ...
+funnyHeadline2.includes('oxygen')
+	? console.log("The string include the word 'oxygen'")
+	: console.log("The string does not include the word 'oxygen'")
 
 /*******************************************
        Iteration 6 | String Length
